@@ -14,22 +14,10 @@
   * [Testing](#tools-test)
   * [Other](#tools-other)
 - [Language-Specific](#lang)
+  * [C#](#lang-cs)
   * [Go](#lang-go)
   * [Node.js](#lang-nodejs)
-  * [Java](#lang-java)
-  * [Ruby](#lang-ruby)
-  * [Python](#lang-py)
-  * [C#](#lang-cs)
-  * [Rust](#lang-rust)
-  * [Haskell](#lang-hs)
-  * [Erlang](#lang-erlang)
-  * [Elixir](#lang-elixir)
-  * [Elm](#lang-elm)
   * [TypeScript](#lang-ts)
-  * [Scala](#lang-scala)
-  * [Dart](#lang-dart)
-  * [Kotlin](#lang-kotlin)
-  * [Perl](#lang-perl)
 - [Resources](#resources)
   * [Tutorials](#res-tuts)
   * [Videos](#res-videos)
@@ -129,6 +117,12 @@
 <a name="lang"></a>
 ## Language-Specific
 
+<a name="lang-cs"></a>
+### C#
+
+- [MagicOnion](https://github.com/neuecc/MagicOnion) - gRPC based HTTP/2 RPC Streaming Framework for .NET, .NET Core and Unity
+- [Grpc.Tools](https://www.nuget.org/packages/Grpc.Tools/) - gRPC and Protocol Buffer compiler for managed C# and native C++ projects. See [Introduction to gRPC on .NET Core](https://docs.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-3.0) tutorial.
+
 <a name="lang-go"></a>
 ### Go
 - [go-GRPC Micro](https://github.com/micro/go-grpc) - [Micro](https://github.com/micro) based gRPC framework for microservices
@@ -183,104 +177,11 @@
 - [firecomm](https://github.com/firecomm/firecomm) - Feature library for gRPC-Node
 - [grpc-web-gateway](https://github.com/dialogs/grpc-web-gateway) – HTTP & WebSocket proxy gateway for gRPC services
 
-<a name="lang-java"></a>
-### Java
-
-- [gax-java](https://github.com/googleapis/gax-java) - Google API Extensions for Java
-- [Armeria](https://github.com/line/armeria) - Asynchronous RPC/REST library built on top of Java 8, Netty, HTTP/2, Thrift and gRPC
-- [grpc-spring-boot-starter](https://github.com/yidongnan/grpc-spring-boot-starter) - Spring Boot starter module for gRPC framework
-- [grpc-spring-boot-starter](https://github.com/LogNet/grpc-spring-boot-starter) Spring Boot starter module for gRPC framework from LogNet.
-- [reactive-grpc](https://github.com/salesforce/reactive-grpc) - Integrates reactive programming with grpc-java
-- [grpc-java-contrib](https://github.com/salesforce/grpc-java-contrib) - Useful extensions for the grpc-java library
-- [rejoiner](https://github.com/google/rejoiner) - Generates a GraphQL schema from gRPC microservices
-- [hoverfly-java-grpc](https://mvnrepository.com/artifact/io.specto/hoverfly-java-grpc) - MITM proxy for recording and simulating gRPC services
-- [grpcmock](https://github.com/Fadelis/grpcmock) - A gRPC Java testing tool to easily mock endpoints of gRPC services for IT or Unit testing
-
-<a name="lang-ruby"></a>
-### Ruby
-
-- [gruf](https://github.com/bigcommerce/gruf) - gRPC Ruby Framework
-- [gapic-generator-ruby](https://github.com/googleapis/gapic-generator-ruby) - Generates Ruby gRPC client libraries from protocol buffer definitions of an API.
-
-<a name="lang-py"></a>
-### Python
-
-- [grpclib](https://github.com/vmagamedov/grpclib) - Pure-Python gRPC implementation, based on hyper-h2 project
-- [pytest-grpc](https://github.com/kataev/pytest-grpc) - pytest plugin which allow test gRPC services
-- [grpcalchemy](https://github.com/GuangTianLi/grpcalchemy) - The Python micro framework for building gPRC application
-- [django-grpc](https://github.com/gluk-w/django-grpc) - Django application to build gRPC services with access to ORM, settings and everything else
-- [garuda](https://github.com/dhilipsiva/garuda) - Automagically Exposing Djagno ORM over gRPC for microservices written in any other languages
-- [django-grpc-framework](https://github.com/fengsp/django-grpc-framework) - A gRPC toolkit for Django inspired by djangorestframework
-- [homi](https://github.com/spaceone-dev/homi) - Python micro framework for build grpc server easy and fast.
-- [grpc_requests](https://github.com/spaceone-dev/grpc_requests) - GRPC for Humans! grpc reflection support client. you can request grpc just like REST(No need Stub!)
-
-<a name="lang-cs"></a>
-### C#
-
-- [MagicOnion](https://github.com/neuecc/MagicOnion) - gRPC based HTTP/2 RPC Streaming Framework for .NET, .NET Core and Unity
-- [Grpc.Tools](https://www.nuget.org/packages/Grpc.Tools/) - gRPC and Protocol Buffer compiler for managed C# and native C++ projects. See [Introduction to gRPC on .NET Core](https://docs.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-3.0) tutorial.
-
-<a name="lang-rust"></a>
-### Rust
-
-- [grpc-rs](https://github.com/pingcap/grpc-rs) - The gRPC library for Rust built on C Core library and futures
-- [grpc-rust](https://github.com/stepancheg/grpc-rust) - Rust implementation of gRPC
-- [tower-grpc](https://github.com/tower-rs/tower-grpc) - A client and server gRPC implementation based on Tower
-- [tonic](https://github.com/hyperium/tonic) - A native gRPC client & server implementation with async/await support
-
-<a name="lang-hs"></a>
-### Haskell
-
-- [grpc-haskell](https://github.com/grpc/grpc-haskell) - gRPC library binding for Haskell
-
-<a name="lang-erlang"></a>
-### Erlang
-
-- [Erlang grpc](https://github.com/bluehouse-technology/grpc) - Erlang library for gRPC
-- [grpcbox](https://github.com/tsloughter/grpcbox) - Erlang grpc client and server
-- [bert](https://github.com/synrc/bert) - Erlang Google Protobuf V3 generator from HRL files
-
-<a name="lang-elixir"></a>
-### Elixir
-
-- [grpc-elixir](https://github.com/tony612/grpc-elixir) - The Elixir implementation of gRPC
-
-<a name="lang-elm"></a>
-### Elm
-
-- [elm-protobuf](https://github.com/tiziano88/elm-protobuf) - Protoc plugin generating elm code from proto definitions
-
 <a name="lang-ts"></a>
 ### TypeScript
 
 - [ts-protoc-gen](https://github.com/improbable-eng/ts-protoc-gen) - Protoc Plugin for TypeScript Declarations
 - [protoc-gen-tstypes](https://godoc.org/github.com/tmc/grpcutil/protoc-gen-tstypes) - Configurable Protoc Plugin to generate TypeScript types.
-
-<a name="lang-scala"></a>
-### Scala
-
-- [ScalaPB](https://scalapb.github.io/) - Protocol Buffer Compiler for Scala
-- [Akka-gRPC](https://developer.lightbend.com/docs/akka-grpc/current/) - Akka gRPC provides support for building streaming gRPC servers and clients on top of Akka Streams.
-- [Mu](https://higherkindness.io/mu/) - Mu RPC is a purely functional library for building RPC endpoint-based services with support for gRPC and HTTP/2
-
-<a name="lang-dart"></a>
-### Dart
-
-- [grpc-dart](https://pub.dartlang.org/packages/grpc) - Protocol Buffer Compiler for Dart
-
-<a name="lang-kotlin"></a>
-### Kotlin
-
-- [kroto-plus](https://github.com/marcoferrer/kroto-plus) - gRPC Coroutines Integration and Protobuf message DSL support
-- [grpc-kotlin](https://github.com/rouzwawi/grpc-kotlin) - A protoc plugin for generating native Kotlin bindings using coroutine primitives for gRPC services
-- [gapic-generator-kotlin](https://github.com/googleapis/gapic-generator-kotlin) - Generates coroutine-based gRPC Kotlin client libraries from a protocol buffer description of an API
-- [grpc-kapt](https://github.com/google/grpc-kapt) - Annotation driven gRPC clients & servers in Kotlin with coroutines
-- [sisyphus](https://github.com/ButterCam/sisyphus) - Finding a gRPC backend framework? Spring/Protobuf/gRPC/http-transcoding/kotlin all in one.
-
-<a name="lang-perl"></a>
-### Perl
-
-- [grpc-perl](https://github.com/joyrex2001/grpc-perl) - Experimental Perl gRPC library supporting grpc client
 
 ## Resources
 
