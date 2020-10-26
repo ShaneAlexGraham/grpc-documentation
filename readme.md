@@ -5,7 +5,9 @@
 
 ## Contents
 
-- [Documentation](#documentation)
+- [Documentation](#glance)
+- [At a Glance](#documentation)
+- [Into the Future](#future)
 - [Community](#community)
 - [Official Libraries and Tools](#official)
 - [Tools](#tools)
@@ -28,6 +30,34 @@
   * [Documentation](#proto-docs)
   * [Tools](#proto-tools)
 - [Similar](#similar)
+
+<a name="glance"></a>
+## At a Glance
+
+The following links are important ones from below that may help to be looked at first:
+- [Website](https://grpc.io/) - Official documentation, libraries, resources, samples and FAQ
+- [Technical documentation](https://github.com/grpc/grpc/tree/master/doc) - Collection of useful technical documentation
+- [Grpc.Tools](https://www.nuget.org/packages/Grpc.Tools/) - gRPC and Protocol Buffer compiler for managed C# and native C++ projects. See [Introduction to gRPC on .NET Core](https://docs.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-3.0) tutorial.
+- [API Design Guide](https://cloud.google.com/apis/design/) - Google Cloud API Design Guide useful for gRPC API design insights
+- [gRPC Core](https://github.com/grpc/grpc) - C, C++, Ruby, Node.js, Python, PHP, C#, Objective-C
+- [gRPC C#](https://github.com/grpc/grpc-dotnet) - The C# language implementation of gRPC
+- [gRPC Go](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC
+- [grpcurl](https://github.com/fullstorydev/grpcurl) - Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
+- [grpc-client-cli](https://github.com/vadimi/grpc-client-cli) - interactive gRPC client
+
+<a name="future"></a>
+## Into the Future
+
+The following links are important ones from below that may help us with our future goals:
+- API Developement
+ - [grpc-swagger](https://github.com/grpc-swagger/grpc-swagger) - Debugging gRPC application with swagger-ui.
+  - To document API for thirdparty integrations
+- Testing
+ - [letmegrpc](https://github.com/gogo/letmegrpc) - Generate a web form gui from a grpc specification
+  - this should be helpful building test clients so we can test without the dependancy of Application or Webapp running
+ - Benchmarking and Stress Testing
+  - [ghz](https://github.com/bojand/ghz) - Simple gRPC benchmarking and load testing tool inspired by hey and grpcurl
+  - [gatling-grpc](https://github.com/phiSgr/gatling-grpc) - A [Gatling](http://gatling.io/) stress test plugin for gRPC.
 
 ## Documentation
 
