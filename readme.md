@@ -49,15 +49,15 @@ The following links are important ones from below that may help to be looked at 
 ## Into the Future
 
 The following links are important ones from below that may help us with our future goals:
-- API Developement
- - [grpc-swagger](https://github.com/grpc-swagger/grpc-swagger) - Debugging gRPC application with swagger-ui.
-  - To document API for thirdparty integrations
-- Testing
- - [letmegrpc](https://github.com/gogo/letmegrpc) - Generate a web form gui from a grpc specification
-  - this should be helpful building test clients so we can test without the dependancy of Application or Webapp running
- - Benchmarking and Stress Testing
-  - [ghz](https://github.com/bojand/ghz) - Simple gRPC benchmarking and load testing tool inspired by hey and grpcurl
-  - [gatling-grpc](https://github.com/phiSgr/gatling-grpc) - A [Gatling](http://gatling.io/) stress test plugin for gRPC.
+* API Developement
+ * [grpc-swagger](https://github.com/grpc-swagger/grpc-swagger) - Debugging gRPC application with swagger-ui.
+  * To document API for thirdparty integrations
+* Testing
+ * [letmegrpc](https://github.com/gogo/letmegrpc) - Generate a web form gui from a grpc specification
+  * this should be helpful building test clients so we can test without the dependancy of Application or Webapp running
+ * Benchmarking and Stress Testing
+  * [ghz](https://github.com/bojand/ghz) - Simple gRPC benchmarking and load testing tool inspired by hey and grpcurl
+  * [gatling-grpc](https://github.com/phiSgr/gatling-grpc) - A [Gatling](http://gatling.io/) stress test plugin for gRPC.
 
 ## Documentation
 
