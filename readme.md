@@ -5,8 +5,8 @@
 
 ## Contents
 
-- [Documentation](#glance)
-- [At a Glance](#documentation)
+- [At a Glance](#glance)
+- [Documentation](#documentation)
 - [Into the Future](#future)
 - [Community](#community)
 - [Official Libraries and Tools](#official)
